@@ -12,7 +12,8 @@
 
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/detail/allocator.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/core/empty_value.hpp>
 #include <limits>
 #include <memory>

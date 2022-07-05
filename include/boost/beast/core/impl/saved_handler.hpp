@@ -11,9 +11,12 @@
 #define BOOST_BEAST_CORE_IMPL_SAVED_HANDLER_HPP
 
 #include <boost/beast/core/detail/allocator.hpp>
-#include <boost/asio/associated_allocator.hpp>
-#include <boost/asio/associated_executor.hpp>
-#include <boost/asio/executor_work_guard.hpp>
+//#include <boost/asio/associated_allocator.hpp>
+#include <asio/associated_allocator.hpp>
+//#include <boost/asio/associated_executor.hpp>
+#include <asio/associated_executor.hpp>
+//#include <boost/asio/executor_work_guard.hpp>
+#include <asio/executor_work_guard.hpp>
 #include <boost/assert.hpp>
 #include <boost/core/empty_value.hpp>
 #include <boost/core/exchange.hpp>

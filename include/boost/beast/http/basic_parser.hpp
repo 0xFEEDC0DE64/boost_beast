@@ -16,7 +16,8 @@
 #include <boost/beast/http/field.hpp>
 #include <boost/beast/http/verb.hpp>
 #include <boost/beast/http/detail/basic_parser.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/optional.hpp>
 #include <boost/assert.hpp>
 #include <limits>

@@ -14,8 +14,10 @@
 #include <boost/beast/core/async_base.hpp>
 #include <boost/beast/core/flat_static_buffer.hpp>
 #include <boost/beast/core/read_size.hpp>
-#include <boost/asio/basic_stream_socket.hpp>
-#include <boost/asio/coroutine.hpp>
+//#include <boost/asio/basic_stream_socket.hpp>
+#include <asio/basic_stream_socket.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
 #include <boost/throw_exception.hpp>
 
 namespace boost {

@@ -11,7 +11,8 @@
 #define BOOST_BEAST_WEBSOCKET_DETAIL_SERVICE_HPP
 
 #include <boost/beast/core/detail/service_base.hpp>
-#include <boost/asio/execution_context.hpp>
+//#include <boost/asio/execution_context.hpp>
+#include <asio/execution_context.hpp>
 #include <boost/enable_shared_from_this.hpp>
 #include <mutex>
 #include <vector>

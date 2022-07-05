@@ -15,7 +15,8 @@
 #include <boost/beast/http/error.hpp>
 #include <boost/beast/http/message.hpp>
 #include <boost/beast/core/detail/clamp.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/optional.hpp>
 #include <cstdint>
 #include <limits>

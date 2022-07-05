@@ -10,13 +10,20 @@
 #ifndef BOOST_BEAST_CORE_DETAIL_BIND_DEFAULT_EXECUTOR_HPP
 #define BOOST_BEAST_CORE_DETAIL_BIND_DEFAULT_EXECUTOR_HPP
 
-#include <boost/asio/associated_allocator.hpp>
-#include <boost/asio/associated_executor.hpp>
-#include <boost/asio/dispatch.hpp>
-#include <boost/asio/executor.hpp>
-#include <boost/asio/handler_alloc_hook.hpp>
-#include <boost/asio/handler_continuation_hook.hpp>
-#include <boost/asio/handler_invoke_hook.hpp>
+//#include <boost/asio/associated_allocator.hpp>
+#include <asio/associated_allocator.hpp>
+//#include <boost/asio/associated_executor.hpp>
+#include <asio/associated_executor.hpp>
+//#include <boost/asio/dispatch.hpp>
+#include <asio/dispatch.hpp>
+//#include <boost/asio/executor.hpp>
+#include <asio/executor.hpp>
+//#include <boost/asio/handler_alloc_hook.hpp>
+#include <asio/handler_alloc_hook.hpp>
+//#include <boost/asio/handler_continuation_hook.hpp>
+#include <asio/handler_continuation_hook.hpp>
+//#include <boost/asio/handler_invoke_hook.hpp>
+#include <asio/handler_invoke_hook.hpp>
 #include <boost/core/empty_value.hpp>
 #include <utility>
 

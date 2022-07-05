@@ -11,7 +11,8 @@
 #define BOOST_BEAST_CORE_DETAIL_BUFFER_HPP
 
 #include <boost/beast/core/error.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/optional.hpp>
 #include <stdexcept>
 

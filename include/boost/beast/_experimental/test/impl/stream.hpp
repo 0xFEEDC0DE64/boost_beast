@@ -14,9 +14,12 @@
 #include <boost/beast/core/buffer_traits.hpp>
 #include <boost/beast/core/detail/service_base.hpp>
 #include <boost/beast/core/detail/is_invocable.hpp>
-#include <boost/asio/any_io_executor.hpp>
-#include <boost/asio/dispatch.hpp>
-#include <boost/asio/post.hpp>
+//#include <boost/asio/any_io_executor.hpp>
+#include <asio/any_io_executor.hpp>
+//#include <boost/asio/dispatch.hpp>
+#include <asio/dispatch.hpp>
+//#include <boost/asio/post.hpp>
+#include <asio/post.hpp>
 #include <mutex>
 #include <stdexcept>
 #include <vector>

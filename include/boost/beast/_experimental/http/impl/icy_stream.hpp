@@ -15,7 +15,8 @@
 #include <boost/beast/core/error.hpp>
 #include <boost/beast/core/stream_traits.hpp>
 #include <boost/beast/core/detail/is_invocable.hpp>
-#include <boost/asio/coroutine.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
 #include <boost/assert.hpp>
 #include <boost/throw_exception.hpp>
 #include <cstring>

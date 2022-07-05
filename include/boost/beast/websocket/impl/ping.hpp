@@ -16,8 +16,10 @@
 #include <boost/beast/core/detail/bind_continuation.hpp>
 #include <boost/beast/websocket/detail/frame.hpp>
 #include <boost/beast/websocket/impl/stream_impl.hpp>
-#include <boost/asio/coroutine.hpp>
-#include <boost/asio/post.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
+//#include <boost/asio/post.hpp>
+#include <asio/post.hpp>
 #include <boost/throw_exception.hpp>
 #include <memory>
 

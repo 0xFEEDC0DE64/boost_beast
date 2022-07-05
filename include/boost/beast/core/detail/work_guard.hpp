@@ -1,8 +1,10 @@
 #ifndef BOOST_BEAST_CORE_DETAIL_WORK_GUARD_HPP
 #define BOOST_BEAST_CORE_DETAIL_WORK_GUARD_HPP
 
-#include <boost/asio/executor_work_guard.hpp>
-#include <boost/asio/execution.hpp>
+//#include <boost/asio/executor_work_guard.hpp>
+#include <asio/executor_work_guard.hpp>
+//#include <boost/asio/execution.hpp>
+//#include <asio/execution.hpp>
 #include <boost/optional.hpp>
 
 namespace boost {

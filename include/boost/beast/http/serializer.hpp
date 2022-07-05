@@ -18,7 +18,8 @@
 #include <boost/beast/core/detail/variant.hpp>
 #include <boost/beast/http/message.hpp>
 #include <boost/beast/http/chunk_encode.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/optional.hpp>
 
 namespace boost {

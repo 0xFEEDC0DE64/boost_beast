@@ -12,11 +12,16 @@
 
 #include <boost/beast/core/error.hpp>
 #include <boost/beast/core/detail/tuple.hpp>
-#include <boost/asio/associated_allocator.hpp>
-#include <boost/asio/associated_executor.hpp>
-#include <boost/asio/handler_alloc_hook.hpp>
-#include <boost/asio/handler_continuation_hook.hpp>
-#include <boost/asio/handler_invoke_hook.hpp>
+//#include <boost/asio/associated_allocator.hpp>
+#include <asio/associated_allocator.hpp>
+//#include <boost/asio/associated_executor.hpp>
+#include <asio/associated_executor.hpp>
+//#include <boost/asio/handler_alloc_hook.hpp>
+#include <asio/handler_alloc_hook.hpp>
+//#include <boost/asio/handler_continuation_hook.hpp>
+#include <asio/handler_continuation_hook.hpp>
+//#include <boost/asio/handler_invoke_hook.hpp>
+#include <asio/handler_invoke_hook.hpp>
 #include <boost/core/ignore_unused.hpp>
 #include <boost/mp11/integer_sequence.hpp>
 #include <boost/is_placeholder.hpp>

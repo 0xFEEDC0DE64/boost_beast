@@ -12,10 +12,14 @@
 
 #include <boost/beast/core/buffers_generator.hpp>
 
-#include <boost/asio/write.hpp>
-#include <boost/asio/async_result.hpp>
-#include <boost/asio/compose.hpp>
-#include <boost/asio/coroutine.hpp>
+//#include <boost/asio/write.hpp>
+#include <asio/write.hpp>
+//#include <boost/asio/async_result.hpp>
+#include <asio/async_result.hpp>
+//#include <boost/asio/compose.hpp>
+#include <asio/compose.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
 
 #include <boost/beast/core/buffer_traits.hpp>
 #include <boost/beast/core/stream_traits.hpp>

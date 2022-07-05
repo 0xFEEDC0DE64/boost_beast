@@ -12,8 +12,10 @@
 
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/error.hpp>
-#include <boost/asio/async_result.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/async_result.hpp>
+#include <asio/async_result.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/logic/tribool.hpp>
 #include <type_traits>
 

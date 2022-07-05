@@ -13,7 +13,8 @@
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/detail/buffer_traits.hpp>
 #include <boost/beast/core/detail/static_const.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <boost/config/workaround.hpp>
 #include <boost/mp11/function.hpp>
 #include <type_traits>

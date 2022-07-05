@@ -15,7 +15,8 @@
 #include <boost/beast/core/stream_traits.hpp>
 #include <boost/beast/http/basic_parser.hpp>
 #include <boost/beast/http/message.hpp>
-#include <boost/asio/async_result.hpp>
+//#include <boost/asio/async_result.hpp>
+#include <asio/async_result.hpp>
 
 namespace boost {
 namespace beast {

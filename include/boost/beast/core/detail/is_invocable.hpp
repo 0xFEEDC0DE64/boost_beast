@@ -10,7 +10,8 @@
 #ifndef BOOST_BEAST_DETAIL_IS_INVOCABLE_HPP
 #define BOOST_BEAST_DETAIL_IS_INVOCABLE_HPP
 
-#include <boost/asio/async_result.hpp>
+//#include <boost/asio/async_result.hpp>
+#include <asio/async_result.hpp>
 #include <boost/type_traits/make_void.hpp>
 #include <type_traits>
 #include <utility>

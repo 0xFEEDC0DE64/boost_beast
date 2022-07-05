@@ -17,9 +17,12 @@
 #include <boost/beast/core/make_printable.hpp>
 #include <boost/beast/core/stream_traits.hpp>
 #include <boost/beast/core/detail/is_invocable.hpp>
-#include <boost/asio/coroutine.hpp>
-#include <boost/asio/post.hpp>
-#include <boost/asio/write.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
+//#include <boost/asio/post.hpp>
+#include <asio/post.hpp>
+//#include <boost/asio/write.hpp>
+#include <asio/write.hpp>
 #include <boost/optional.hpp>
 #include <boost/throw_exception.hpp>
 #include <ostream>

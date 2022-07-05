@@ -11,7 +11,8 @@
 #ifndef BOOST_BEAST_TEST_DETAIL_STREAM_STATE_HPP
 #define BOOST_BEAST_TEST_DETAIL_STREAM_STATE_HPP
 
-#include <boost/asio/any_io_executor.hpp>
+//#include <boost/asio/any_io_executor.hpp>
+#include <asio/any_io_executor.hpp>
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/_experimental/test/fail_count.hpp>
 #include <boost/beast/core/detail/service_base.hpp>

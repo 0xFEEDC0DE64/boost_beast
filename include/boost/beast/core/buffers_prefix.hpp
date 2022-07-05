@@ -12,7 +12,8 @@
 
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/buffer_traits.hpp>
-#include <boost/optional/optional.hpp> // for in_place_init_t
+//#include <boost/optional/optional.hpp> // for in_place_init_t
+#include <optional>
 #include <algorithm>
 #include <cstdint>
 #include <type_traits>

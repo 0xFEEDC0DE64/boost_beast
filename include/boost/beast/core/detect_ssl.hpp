@@ -16,8 +16,10 @@
 #include <boost/beast/core/read_size.hpp>
 #include <boost/beast/core/stream_traits.hpp>
 #include <boost/logic/tribool.hpp>
-#include <boost/asio/async_result.hpp>
-#include <boost/asio/coroutine.hpp>
+//#include <boost/asio/async_result.hpp>
+#include <asio/async_result.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
 #include <type_traits>
 
 namespace boost {
@@ -546,7 +548,8 @@ namespace detail {
 // This example uses the Asio's stackless "fauxroutines", implemented
 // using a macro-based solution. It makes the code easier to write and
 // easier to read. This include file defines the necessary macros and types.
-#include <boost/asio/yield.hpp>
+//#include <boost/asio/yield.hpp>
+#include <asio/yield.hpp>
 
 // detect_ssl_op is callable with the signature void(error_code, bytes_transferred),
 // allowing `*this` to be used as a ReadHandler
@@ -659,7 +662,8 @@ operator()(error_code ec, std::size_t bytes_transferred, bool cont)
 }
 
 // Including this file undefines the macros used by the stackless fauxroutines.
-#include <boost/asio/unyield.hpp>
+//#include <boost/asio/unyield.hpp>
+#include <asio/unyield.hpp>
 
 } // detail
 

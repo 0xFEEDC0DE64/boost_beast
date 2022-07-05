@@ -19,9 +19,12 @@
 #include <boost/beast/core/stream_traits.hpp>
 #include <boost/beast/core/detail/buffer.hpp>
 #include <boost/beast/core/detail/read.hpp>
-#include <boost/asio/error.hpp>
-#include <boost/asio/compose.hpp>
-#include <boost/asio/coroutine.hpp>
+//#include <boost/asio/error.hpp>
+#include <asio/error.hpp>
+//#include <boost/asio/compose.hpp>
+#include <asio/compose.hpp>
+//#include <boost/asio/coroutine.hpp>
+#include <asio/coroutine.hpp>
 
 namespace boost {
 namespace beast {

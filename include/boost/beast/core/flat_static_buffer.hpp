@@ -11,7 +11,8 @@
 #define BOOST_BEAST_FLAT_STATIC_BUFFER_HPP
 
 #include <boost/beast/core/detail/config.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <algorithm>
 #include <cstddef>
 #include <cstring>

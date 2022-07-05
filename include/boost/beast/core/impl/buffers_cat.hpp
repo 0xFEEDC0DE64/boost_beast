@@ -12,7 +12,8 @@
 
 #include <boost/beast/core/detail/tuple.hpp>
 #include <boost/beast/core/detail/variant.hpp>
-#include <boost/asio/buffer.hpp>
+//#include <boost/asio/buffer.hpp>
+#include <asio/buffer.hpp>
 #include <cstdint>
 #include <iterator>
 #include <new>

@@ -13,8 +13,10 @@
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/basic_stream.hpp>
 #include <boost/beast/core/rate_policy.hpp>
-#include <boost/asio/executor.hpp>
-#include <boost/asio/ip/tcp.hpp>
+//#include <boost/asio/executor.hpp>
+#include <asio/executor.hpp>
+//#include <boost/asio/ip/tcp.hpp>
+#include <asio/ip/tcp.hpp>
 
 namespace boost {
 namespace beast {

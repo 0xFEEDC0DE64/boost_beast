@@ -13,7 +13,8 @@
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/detail/static_const.hpp>
 #include <boost/beast/core/detail/stream_traits.hpp>
-#include <boost/asio/basic_socket.hpp>
+//#include <boost/asio/basic_socket.hpp>
+#include <asio/basic_socket.hpp>
 
 namespace boost {
 namespace beast {

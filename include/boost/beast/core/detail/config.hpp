@@ -17,11 +17,12 @@
 #include <boost/static_assert.hpp>
 
 namespace boost {
-namespace asio
-{
-} // asio
+//namespace asio
+//{
+//} // asio
 namespace beast {
-namespace net = boost::asio;
+//namespace net = boost::asio;
+namespace net = asio;
 } // beast
 } // boost
 
